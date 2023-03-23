@@ -1,0 +1,139 @@
+제출파일 : 3월16일실습_XXX.txt
+메일제목 : 자바OOP실습9-XXX
+
+다음에 제시된 메서드들의 도큐멘테이션을 찾아 보고
+
+예외 처리를 해야 하는지 여부를 검토한 후에 다음과 같이 작성한다.
+
+- XXXException 을 반드시 처리해야 한다.
+
+- 예외처리를 하지 않는다.
+
+
+
+- InetAddress 의 getByName()
+
+------>
+
+
+- URL 의 객체 생성 : (생성자 메서드 중에서 URL(String spec)을 기준으로)
+
+------>
+
+
+- ArrayList 의 add​(E e)
+
+------>
+
+
+- HashMap 의 put​(K key, V value)
+
+
+- Reader 의 read()
+
+------>
+
+
+- Writer 의 write(String str)
+
+------>
+
+
+- FileReader 의 객체 생성(생성자 메서드 중에서 FileReader(String fileName)을 기준으로)
+
+------>
+
+
+- FileWriter 의 객체 생성
+
+------>
+
+
+- Class 의 forName()
+
+------>
+
+
+- Random 클래스 객체 생성(생성자 메서드 중에서 Random()을 기준으로)
+
+------>
+
+
+- DriverManager 의 getConnection​(String url, String user, String password)
+
+------>
+
+
+- Statement 의 executeQuery()
+
+------>
+
+
+- Connection 의 createStatement()
+
+------>
+
+
+- Runtime 의 exec​(String command)
+
+------>
+
+
+- Object 의 equals()
+
+------>
+
+
+- Scanner 의 객체 생성(생성자 메서드 중에서 Scanner(InputStream source)을 기준으로)
+
+------>
+
+
+- Scanner 의 nextInt()
+
+------>
+
+
+- BufferedReader 의 readLine()
+
+------>
+
+
+- URL 의 openStream()
+
+------>
+
+
+- StringBuffer 의 append​(String str)
+
+------>
+
+
+- String 의 length()
+
+------>
+
+
+- ResultSet 의 next()
+
+------>
+
+
+- File 의 객체생성(생성자 메서드 중에서 File(String pathname)을 기준으로)
+
+------>
+
+
+- Socket 의 객체생성(생성자 메서드 중에서 Socket(InetAddress address, int port)을 기준으로)
+
+------>
+
+
+- Iterator 의 hasNext()
+
+------>
+
+
+
+
+
