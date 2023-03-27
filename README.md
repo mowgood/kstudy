@@ -47,24 +47,24 @@
 
 ## Week2
 - [[day1]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day1) [자바 개발환경 준비](https://github.com/mowgood/kosastudy/blob/main/TIL/230306_Java_1.md)
-- [day2] 자바 기본 문법
-- [day3] 자바 기본 문법
-- [day4] 자바 기본 문법
-- [day5] 자바 메서드
+- [[day2]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day2) 자바 기본 문법
+- [[day3]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day3) 자바 기본 문법
+- [[day4]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day4) 자바 기본 문법
+- [[day5]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day5) 자바 메서드
 
 ## Week3
-- [day6] 클래스와 생성자
-- [day7] 상속
-- [day8] 다형성 (추상 클래스)
-- [day9] 배열
-- [day10] 인터페이스와 예외 처리
+- [[day6]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day6) 클래스와 생성자
+- [[day7]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day7) 상속
+- [[day8]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day8) 다형성 (추상 클래스)
+- [[day9]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day9) 배열
+- [[day10]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day10) 인터페이스와 예외 처리
 
 ## Week4
-- [day11] 문자열, 제네릭, 자료구조
-- [day12] Collections, 객체 비교 인터페이스, 입출력
-- [day13] 직렬화, URL 프로그래밍, 열거 타입
-- [day14] 내부클래스, JDBC
-- [day15] SQL, JDBC
+- [[day11]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day11) 문자열, 제네릭, 자료구조
+- [[day12]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day12) Collections, 객체 비교 인터페이스, 입출력
+- [[day13]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day13) 직렬화, URL 프로그래밍, 열거 타입
+- [[day14]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day14) 내부클래스, JDBC
+- [[day15]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day15) SQL, JDBC
 
 ## Week5
 - [day16] 
