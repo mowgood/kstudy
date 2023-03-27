@@ -1,3 +1,5 @@
+<div align="center"> <img src="https://github.com/mowgood/kosastudy/blob/main/TIL/img/dktechin_Logo.jpg"> </div>
+
 # 👩‍💻디케이테크인 MSA 기반 Full Stack 개발자 양성과정
 
 📍 디케이테크인과 KOSA에서 진행하는 MSA기반 Full stack 개발자 양성과정에서 학습한 내용을 기록하는 저장소 <br><br>
@@ -16,7 +18,6 @@
 <br>
 
 🌵 **학습 과정**
-
 |Subject|More|
 |:--:|:--:|
 |리눅스(CentOS 8)|[🔎](#week1)|
@@ -67,7 +68,7 @@
 - [[day15]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day15) [SQL, JDBC](https://github.com/mowgood/kosastudy/blob/main/TIL/230324_JDBC_15.md)
 
 ## Week5
-- [day16] 
+- [day16] DML, DDL, MVC 패턴
 - [day17] 
 - [day18] 
 - [day19] 
