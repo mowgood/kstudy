@@ -61,7 +61,9 @@ public class InsertBookLab {
 					System.out.println("5. 인프라");
 					System.out.print("선택(1~5) : ");
 					int number = Integer.parseInt(scan.nextLine());
-
+					// int number = scan.nextInt();
+					// scan.nextLine(); // 입력 버퍼를 청소
+					
 					pstmt.setString(1, title);
 					pstmt.setInt(2, price);
 					pstmt.setString(3, "b0" + number);

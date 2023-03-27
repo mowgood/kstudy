@@ -44,6 +44,7 @@ public class CreateBookLab {
 			System.out.println("book 테이블 생성 완료!");
 		} catch (SQLException se1) {
 			System.out.println("오류발생 " + se1);
+			se1.printStackTrace(); // 콜스택 정보 출력
 		} finally {
 			try {
 				stmt.close();

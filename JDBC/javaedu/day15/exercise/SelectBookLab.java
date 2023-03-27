@@ -77,8 +77,7 @@ public class SelectBookLab {
 				sql = "SELECT title, CONCAT(FORMAT(price, 0), '원') bookPrice FROM book where title LIKE '%자바%'";
 				break;
 			case 7: // 분류별 도서 가격 평균 출력
-				sql = "SELECT kind, CONCAT(FORMAT(AVG(price), 0), '원') priceAvg FROM book GROUP BY kind";
-				break;
+				sql = "SELECT kind, CONCAT(FORMAT(AVG(price), 0), '원') priceAvg FROM book WHERE kind is not null GROUP BY kind";
 			}
 
 			while (true) {
@@ -111,7 +110,6 @@ public class SelectBookLab {
 									break;
 								case "b05":
 									bookKind = "인프라";
-									break;
 								}
 								System.out.println(bookKind + " 도서들의 가격 평균은 " + rs.getString("priceAvg") + "입니다.");
 							}
