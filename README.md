@@ -27,12 +27,12 @@
 |자바|[🔎](#week2)|
 |DB와 SQL|[🔎](#week2)|
 |JDBC|[🔎](#week2)|
-|Web Client(HTML5, CSS3, JS(AJAX))|[🔎]()|
-|MVC 기반 Servlet&JSP|[🔎]()|
-|Spring FW(DI, MVC, Rest, JdbcTemplate)|[🔎]()|
-|1차 미니 프로젝트(JPA, Spring Boot, Vue.js&Node.js)|[🔎]()|
-|2차 미니 프로젝트(Docker, 쿠버네티스)|[🔎]()|
-|최종 프로젝트|[🔎]()|
+|Web Client(HTML5, CSS3, JS(AJAX))|[]()|
+|MVC 기반 Servlet&JSP|[]()|
+|Spring FW(DI, MVC, Rest, JdbcTemplate)|[]()|
+|1차 미니 프로젝트(JPA, Spring Boot, Vue.js&Node.js)|[]()|
+|2차 미니 프로젝트(Docker, 쿠버네티스)|[]()|
+|최종 프로젝트|[]()|
 
 <br><br>
 
@@ -65,10 +65,10 @@
 - [[day12]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day12) [Collections, 객체 비교 인터페이스, 입출력](https://github.com/mowgood/kosastudy/blob/main/TIL/230321_Java_12.md)
 - [[day13]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day13) [직렬화, URL 프로그래밍, 열거 타입](https://github.com/mowgood/kosastudy/blob/main/TIL/230322_Java_13.md)
 - [[day14]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day14) [내부클래스, JDBC](https://github.com/mowgood/kosastudy/blob/main/TIL/230323_Java_JDBC_14.md)
-- [[day15]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day15) [SQL, JDBC](https://github.com/mowgood/kosastudy/blob/main/TIL/230324_JDBC_15.md)
+- [[day15]](https://github.com/mowgood/kosastudy/tree/main/JDBC/javaedu/src/day15) [SQL, JDBC](https://github.com/mowgood/kosastudy/blob/main/TIL/230324_JDBC_15.md)
 
 ## Week5
-- [day16] DML, DDL, MVC 패턴
+- [[day16]](https://github.com/mowgood/kosastudy/tree/main/JDBC/javaedu/src/day16) [DML, DDL, MVC 패턴, 제네릭](https://github.com/mowgood/kosastudy/blob/main/TIL/230327_MVC_16.md)
 - [day17] 
 - [day18] 
 - [day19] 
