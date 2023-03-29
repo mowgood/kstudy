@@ -2,7 +2,7 @@ package day17.exercise.lamdalab;
 
 import java.util.Random;
 
-interface Drawable {
+interface Drawable { // 함수형 인터페이스
 	void draw();
 }
 
