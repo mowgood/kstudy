@@ -71,6 +71,6 @@
 - [[day16]](https://github.com/mowgood/kosastudy/tree/main/JDBC/javaedu/src/day16) [DML, DDL, MVC 패턴, 제네릭](https://github.com/mowgood/kosastudy/blob/main/TIL/230327_MVC_16.md)
 - [[day17]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day17) [멀티스레드 프로그래밍, 동기화, 람다](https://github.com/mowgood/kosastudy/blob/main/TIL/230328_Thread_Lambda_17.md)
 - [[day18]](https://github.com/mowgood/kosastudy/tree/main/JAVA/javaedu/src/day18) [람다, Stream](https://github.com/mowgood/kosastudy/blob/main/TIL/230329_Lambda_Stream_18.md) 
-- [day19] 
+- [[day19]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp) [소켓 프로그래밍, Web, HTML5](https://github.com/mowgood/kosastudy/blob/main/TIL/230330_HTML5_19.md)
 - [day20]
 
