@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		body {
+			margin : 0px;
+		}
+		header {
+			background-image : linear-gradient(to right, pink, white);
+			text-align : center;			
+			height : 100px;
+			margin : 0px auto;
+			padding-top : 25px;
+			padding-bottom : 25px;
+		}
+		h1 {
+			color : white;
+			text-shadow : 2px 2px 10px magenta;
+		}
+		a {
+			margin : 80px;	
+			color : purple;
+			text-decoration : none;
+		}
+		a:hover {
+			font-weight : bold;
+		}
+		section {
+			width : 80%;
+			margin : 20px auto;
+		}
+		article {
+			border-radius : 30px;
+			border : 3px dashed skyblue;	
+			margin : 20px;	
+		}	
+		h2 {
+			font-size : 2em;
+			margin : 20px;
+		}	
+		.title1 {
+			color : gold;
+		}
+		.title2 {
+			color : lightgreen;
+		}
+		.title3 {
+			color : purple;
+		}
+		img:hover {
+			opacity : 0.5;
+		}
+		figure {
+			text-align : center;
+		}
+		footer {
+			text-align : center;
+			height : 50px;
+			background-color : #FFB2D9;
+			line-height : 50px;
+		}
+		aside {
+			text-align : center;
+		}
+		span {
+			color : magenta;
+		}		
+		table {
+		    border-top: 1px solid black;
+		    border-collapse: collapse;
+		    margin : 20px;
+  		}
+  		th, td {
+		    border-bottom: 1px solid balck;
+		    padding: 10px;
+		    text-align: center;
+  		}
+  		th {
+    		background-color: #FFB2D9;
+  		}
+  		td {
+    		background-color: #FFD9FA;
+  		}		
+	</style>
+</head>
+<body>
+	<header>
+		<h1>홍승희의 HTML5 학습</h1>
+		<nav>
+			<a href="http://www.w3.org/">W3C</a>
+			<a href="http://www.naver.com/">Naver</a>
+			<a href="http://www.google.com/">Google</a>
+		</nav>	
+	</header>
+	<section>
+		<article>
+			<h2 class="title1">나의 소개</h2>
+			<ul>
+			<li>이름 : 홍승희</li>
+			<li>별명 : 홍길동</li>
+			<li>관심기술 : HTML5</li>
+			<li>취미 : 음악감상</li>
+			</ul>
+		</article>
+		<article>
+			<h2 class="title2">올해 재미있게 본 영화</h2>
+			<table border=1>
+				<tr><th>제목</th><th>장르</th></tr>
+		        <tr><td>아바타</td><td>판타지</td></tr>
+		        <tr><td>스즈메의 문단속</td><td>애니</td></tr>
+		        <tr><td>타이타닉</td><td>드라마</td></tr>
+			</table>
+		</article>
+		<article>
+			<h2 class="title3">자랑하고싶은 <span>우리동네</span>의 아름다운 곳</h2>
+			세종시 야경입니다.
+			<figure>
+			<img src="images/16.jpg">
+			<figcaption>세종시</figcaption>
+			</figure>
+		</article>
+	</section>
+	<aside>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/BfPgJJJiUgE" title="YouTube video player" ></iframe><br>
+	</aside>
+	<footer>
+		<em>이 문서는 홍 승희에 의해 HTML5와 CSS3 기술을 사용하여 2023년 3월 30일에 작성하였습니다.(ver 1.0)</em>
+	</footer>
+</body>
+</html>

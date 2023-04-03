@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>JavaScript의 변수 선언과 활용(1)</h1>
+<script>
+	document.writeln(123);
+	document.writeln(v1+"<br>");	// 오류 발생
+	document.writeln(456);          // 실행하지 않음
+</script>
+<hr>
+<script>
+	var v1;
+	document.writeln(v1+"<br>");    // undefined
+	v1 = 100;
+	document.writeln(v1+"<br>");    // 100
+	v1 = '가나다';
+	document.writeln(v1+"<br>");    // 가나다
+	var v1 = true;
+	document.writeln(v1+"<br>");    // true
+	v1 = 123;
+	document.writeln(v1+45+"<br>");	// 168
+	v1 = '123';
+	document.writeln(v1+45+"<br>"); // 12345	
+</script>
+<hr>
+<script>
+	document.writeln(v1+"<br>");	// 123
+</script>
+</body>
+</html>
