@@ -74,3 +74,9 @@
 - [[day19]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp) [소켓 프로그래밍, Web, HTML5](https://github.com/mowgood/kosastudy/blob/main/TIL/230330_HTML5_19.md)
 - [[day20]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/cssexam) [HTML5, CSS](https://github.com/mowgood/kosastudy/blob/main/TIL/230331_CSS_20.md)
 
+## Week6
+- [[day21]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [CSS, 자바스크립트](https://github.com/mowgood/kosastudy/blob/main/TIL/230403_JS_21.md)
+- [day22]
+- [day23]
+- [day24]
+- [day25]
