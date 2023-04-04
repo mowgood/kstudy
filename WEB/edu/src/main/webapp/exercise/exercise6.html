@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script src="../jsexam/util.js"></script>
+	<script>
+		function getKorDay(y, m, d) {
+			var res = null;
+			if (isNaN(Number(y)) || isNaN(Number(m)) || isNaN(Number(d))) {
+				return undefined;
+			}
+			var d = new Date(y, m-1, d);
+			
+			switch (d.getDay()) {
+			case 0:
+				res = "일요일";
+				break;
+			case 1:
+				res = "월요일";
+				break;
+			case 2:
+				res = "화요일";
+				break;
+			case 3:
+				res = "수요일";
+				break;
+			case 4:
+				res = "목요일";
+				break;
+			case 5:
+				res = "금요일";
+				break;
+			case 6:
+				res = "토요일";
+			}
+			return res;
+		}
+
+		var year = window.prompt("년도를 입력하세요.");
+		var month = window.prompt("월을 입력하세요.");
+		var date = window.prompt("일을 입력하세요.");
+		if (getKorDay(year, month, date) == undefined) {
+			writeColor("결과 없음", "h1", "red");
+		} else {
+			writeColor(year + "년 " + month + "월 " + date + "일은 "
+					+ getKorDay(year, month, date) + "입니다", "h1", "blue");
+		}
+	</script>
+
+
+</body>
+</html>

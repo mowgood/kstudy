@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+li {
+	list-style-type: circle;
+}
+</style>
+</head>
+<body>
+	<script src="../jsexam/util.js"></script>
+	<script>
+		writeColor("자바스크립트 실습(5)", "h1", "blue");
+		
+		function getMaxValue(arr) {
+			var max = arr[0];
+			for ( var i in arr) {
+				if (arr[i] > max) {
+					max = arr[i];
+				}
+			}
+			return max;
+		}
+
+		function getMinValue(arr) {
+			var min = arr[0];
+			for ( var i in arr) {
+				if (arr[i] < min) {
+					min = arr[i];
+				}
+			}
+			return min;
+		}
+
+		function getSum(arr) {
+			var sum = 0;
+			for ( var i in arr) {
+				sum += Number(arr[i]);
+			}
+			return sum;
+		}
+
+		function getCountOddNum(arr) {
+			var cnt = 0;
+			for ( var i in arr) {
+				if (arr[i] % 2 != 0) {
+					cnt++;
+				}
+			}
+			return cnt;
+		}
+		
+		function getCountEvenNum(arr) {
+			var cnt = 0;
+			for ( var i in arr) {
+				if (arr[i] % 2 == 0) {
+					cnt++;
+				}
+			}
+			return cnt;
+		}
+
+		var arr = [ 10, 5, 7, 21, 4, 8, 18 ];
+		writeColor("모든 원소의 합 : " + getSum(arr), "h2", "red");
+
+		document.write("<ul>");
+		document.write("<li>최대값 : " + getMaxValue(arr) + "</li>");
+		document.write("<li>최소값 : " + getMinValue(arr) + "</li>");
+		document.write("<li>짝수의 갯수 : " + getCountEvenNum(arr) + "</li>");
+		document.write("<li>홀수의 갯수 : " + getCountOddNum(arr) + "</li>");
+		document.write("</ul>");
+	</script>
+</body>
+</html>

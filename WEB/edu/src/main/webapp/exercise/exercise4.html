@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script src="../jsexam/util.js"></script>
+	<script>
+		writeColor("자바스크립트 실습(4)", "h1", "pink");
+		var cnt = 0;
+
+		function getSum(n) {
+			var sum = 0;
+			if (n != undefined) {
+				for (let i = 1; i <= n; i++) {
+					sum += i;
+				}
+				return sum;
+			}
+		}
+
+		while (cnt != 5) {
+			var rand = Math.random();
+			var num = Math.floor(rand*6);
+			hr();
+			write("랜덤값 : " + num, "h3");
+			if (num == 0) {
+				write("결과값이 없어요!!", "h3");
+			} else {
+				write("호출 결과값 : " + getSum(num), "h2");
+			}
+
+			cnt++;
+
+		}
+	</script>
+</body>
+</html>

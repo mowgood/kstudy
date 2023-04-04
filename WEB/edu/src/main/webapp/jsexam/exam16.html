@@ -19,7 +19,8 @@ document.write("<hr>");
 
 var ary3 = [30, 11, 5, 27, 9]
 document.write(ary3 + "<br>");
-document.write(ary3.sort(function(a, b){ return a - b;}) + "<br>");
+document.write(ary3.sort() + "<br>"); // 11, 27, 30, 5, 9 -> 문자열 기반으로 정렬
+document.write(ary3.sort(function(a, b){ return a - b;}) + "<br>"); // 숫자 기반 정렬은 함수를 전달하여 사용한다
 document.write(ary3.sort(function(a, b){ return b - a;}) + "<br>");
 document.write("<hr>");
 
