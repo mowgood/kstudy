@@ -27,7 +27,7 @@
 |자바|[🔎](#week2)|
 |DB와 SQL|[🔎](#week2)|
 |JDBC|[🔎](#week2)|
-|Web Client(HTML5, CSS3, JS(AJAX))|[]()|
+|Web Client(HTML5, CSS3, JS(AJAX))|[🔎](#week5)|
 |MVC 기반 Servlet&JSP|[]()|
 |Spring FW(DI, MVC, Rest, JdbcTemplate)|[]()|
 |1차 미니 프로젝트(JPA, Spring Boot, Vue.js&Node.js)|[]()|
@@ -76,7 +76,7 @@
 
 ## Week6
 - [[day21]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [CSS, 자바스크립트](https://github.com/mowgood/kosastudy/blob/main/TIL/230403_JS_21.md)
-- [day22]
+- [[day22]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [자바스크립트 논리형, 함수, 배열](https://github.com/mowgood/kosastudy/blob/main/TIL/230404_JS_22.md)
 - [day23]
 - [day24]
 - [day25]
