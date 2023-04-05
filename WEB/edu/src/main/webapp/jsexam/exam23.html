@@ -10,9 +10,9 @@
 
 <script>
 	const obj = {
-		name : '듀크',
-		eat : function(food) {
-			alert(this.name + "가 " + food + "를 먹어요!!");
+		name : '듀크', // 멤버변수
+		eat : function(food) { // 메서드
+			alert(this.name + "가 " + food + "를 먹어요!!"); // this 필수
 		}
 	};
 	obj.eat("사과");

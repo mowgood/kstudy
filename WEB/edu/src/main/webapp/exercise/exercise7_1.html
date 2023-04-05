@@ -12,11 +12,11 @@
 			if(p.length == 0) {
 				return 0;
 			}
-			for(var i=0; i<p.length; i++) {
-				sum += Number(p[i]);
+			for(var i=0; i<p.length; i++) {				
 				if(isNaN(Number(p[i]))) {
 					return "숫자만 전달하세요";
 				}
+				sum += Number(p[i]);
 			}
 			return sum;	
 		}

@@ -7,7 +7,7 @@
 <body>
 <script src="util.js"></script>
 <script>
-Date.prototype.getKorDay = function() {	
+Date.prototype.getKorDay = function() {	// 이미 존재하는 Date 메서드에 새로운 메서드를 추가
 	var result=null;
 	switch(this.getDay()){
 	case 0 : result = "일요일";
@@ -31,7 +31,7 @@ write(d.toLocaleDateString(), 'h1');
 write(d.toLocaleTimeString(), 'h2');
 write(d.getKorDay(), 'h3');
 // 본인 생일
-d = new Date(2000, 0, 1);
+d = new Date(1999, 10, 28);
 write(d.toLocaleDateString(), 'h1');
 write(d.toLocaleTimeString(), 'h2');
 write(d.getKorDay(), 'h3');

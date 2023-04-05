@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="../jsexam/util.js"></script>
+<script>
+	function printObject(p) {
+		if(typeof p !== "object") {
+			return;
+		} 
+		writeColor(p['msg'], p['tag'], p['color']); // p.msg, p.tag, p.color
+	}
+	
+	const obj = [
+		{
+			tag : 'h1',
+			color : 'red',
+			msg : '안녕'
+		},
+		{
+			tag : 'h2',
+			color : 'blue',
+			msg : '안녕!!'			
+		},
+		{
+			tag : 'h3',
+			color : 'green',
+			msg : '안녕하세요'
+		},
+		{
+			tag : 'h4',
+			color : 'yello',
+			msg : '안녕하세요!!'
+		},
+		{
+			tag : 'h5',
+			color : 'pink',
+			msg : '바이'
+		}
+	]
+	
+	for(let i in obj) {
+		printObject(obj[i]);
+	}
+		
+</script>
+</body>
+</html>

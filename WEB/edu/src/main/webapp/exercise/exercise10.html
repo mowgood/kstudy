@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="../jsexam/util.js"></script>
+<script>
+	function DayInfo(name, year, month, date) {
+		this.name = name;
+		this.year = year;
+		this.month = month;
+		this.date = date;
+		
+		DayInfo.prototype.getTotalDates = function() {
+			let today = new Date();
+			let birth = new Date(this.year, this.month-1, this.date);
+			let res = (today.getTime() - birth.getTime())/(60*60*24) / 1000;
+			return this.name+"님은 태어난지 " + parseInt(res) + "일 되었어요.";
+		}
+		
+		DayInfo.prototype.getKorDay = function() {
+			let birth = new Date(this.year, this.month-1, this.date);
+			let res = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
+			return this.name+"님은 " + res[birth.getDay()] + "에 태어났어요.";
+		}
+	}
+	
+	var d1 = new DayInfo('홍길동', 2023, 4, 5);
+	var d2 = new DayInfo('도우너', 2000, 2, 2);
+	var d3 = new DayInfo('고길동', 1980, 7, 10);
+	
+	writeColor(d1.getTotalDates(), "h3", "pink");
+	writeColor(d1.getKorDay(), "h3", "pink");
+	
+	writeColor(d2.getTotalDates(), "h3", "green");
+	writeColor(d2.getKorDay(), "h3", "green");
+	
+	writeColor(d3.getTotalDates(), "h3", "blue");
+	writeColor(d3.getKorDay(), "h3", "blue");
+</script>
+</body>
+</html>
