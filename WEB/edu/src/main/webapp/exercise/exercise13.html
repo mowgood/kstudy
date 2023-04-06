@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	* { text-align : center; }
+	h1 {
+		color : pink;
+		text-shadow : 2px 2px 5px grey;
+	}
+	#image {
+		border-radius : 10px;
+		width : 200px;
+		height : 100px;
+		border : 1px solid grey;
+		line-height : 100px;
+		margin : 0px auto;
+		box-shadow : 4px 4px 10px red;
+	}
+	button {
+		color : white;
+		background-color : green; 
+		border : 1px solid grey;
+	}
+</style>
+</head>
+<body>
+<h1>이벤트 처리 실습</h1>
+<hr>
+<div id="image">
+	<button>맑음</button>
+	<button>흐림</button>
+	<button>비</button>
+</div>
+<hr>
+<div></div>
+
+<script>
+const output = document.getElementsByTagName("div")[1];
+const dom = document.getElementsByTagName("body")[0];
+dom.addEventListener("click", printImg);
+
+function printImg(e) {
+	if(e.target.nodeName == "BUTTON") {
+		if(e.target.textContent == "맑음") {
+			output.innerHTML = "<img src='../images/sun.png'>";
+		} else if(e.target.textContent == "흐림") {
+			output.innerHTML = "<img src='../images/cloud.png'>";
+		} else {
+			output.innerHTML = "<img src='../images/rain.png'>";
+		}
+	}
+}
+</script>
+</body>
+</html>
