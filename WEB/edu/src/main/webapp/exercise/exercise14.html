@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	* { text-align : center};
+</style>
+</head>
+<body>
+ <h1>홍승희의 HTML5 API 실습</h1>
+ <div>
+ 	<button onclick="save();">저장하기</button>
+ 	<button onclick="drawImage();">읽어오기</button>
+ 	<button onclick="remove();">삭제하기</button>
+ </div>
+ <canvas id="canvas" width="580" height="450"></canvas>
+<script>
+var canvas;
+var context;
+function save() {
+	canvas = document.getElementById('canvas');
+	alert(canvas.toDataURL());
+   	window.localStorage.setItem("imgcanvas", canvas.toDataURL());
+}
+
+function remove() {
+	canvas = document.getElementById("canvas");
+    context = canvas.getContext("2d");
+	context.clearRect(0,0,580,450);
+}
+
+function drawImage() {
+	const img = new Image();
+	   img.src = window.localStorage.imgcanvas;
+	   img.onload = function() {
+	        context.drawImage(img, 0, 0);
+	   }    
+}
+
+function initiate(){
+	  var elem=document.getElementById('canvas');
+	  canvas=elem.getContext('2d');
+	  
+	  canvas.beginPath();
+	  canvas.fillStyle = 'skyblue';
+	  canvas.arc(200,130,90,0,Math.PI*2, false);
+	  canvas.fill();
+	  canvas.stroke();
+	  
+	  canvas.beginPath();
+	  canvas.fillStyle = 'white';
+	  canvas.arc(200,150,80,0,Math.PI*2, false);
+	  canvas.fill();
+	  canvas.stroke();
+
+	  canvas.beginPath();
+	  canvas.fillStyle = 'white';
+	  canvas.arc(180,75,20,0,Math.PI*2, false);
+	  canvas.stroke();
+	  canvas.fill();
+
+	  canvas.beginPath();
+	  canvas.fillStyle = 'white';
+	  canvas.arc(220,75,20,0,Math.PI*2, false);
+	  canvas.stroke();
+	  canvas.fill();
+		  
+	  canvas.beginPath();
+	  canvas.fillStyle = 'black';
+	  canvas.arc(220,75,10,0,Math.PI*2, false);
+	  canvas.fill();
+
+	  canvas.beginPath();
+	  canvas.fillStyle = 'black';
+	  canvas.arc(180,75,10,0,Math.PI*2, false);
+	  canvas.fill();
+	  
+	  canvas.beginPath();
+	  canvas.fillStyle = 'white';
+	  canvas.arc(215,75,3,0,Math.PI*2, false);
+	  canvas.fill();
+
+	  canvas.beginPath();
+	  canvas.fillStyle = 'white';
+	  canvas.arc(185,75,3,0,Math.PI*2, false);
+	  canvas.fill();
+	  
+	  canvas.beginPath();
+	  canvas.fillStyle = 'red';
+	  canvas.arc(200,100,15,0,Math.PI*2, false);
+	  canvas.fill();
+	  
+	  canvas.beginPath();
+	  canvas.moveTo(150,150);
+	  canvas.quadraticCurveTo(200,230,250,150);
+	  canvas.stroke();
+
+	  canvas.beginPath();
+	  canvas.moveTo(280,150);
+	  canvas.lineTo(120,150);
+	  canvas.stroke();
+
+	}
+	window.addEventListener("load", initiate, false);
+
+</script>
+</body>
+</html>
