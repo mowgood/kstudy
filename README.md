@@ -78,5 +78,5 @@
 - [[day21]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [CSS, 자바스크립트](https://github.com/mowgood/kosastudy/blob/main/TIL/230403_JS_21.md)
 - [[day22]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [자바스크립트 논리형, 함수, 배열](https://github.com/mowgood/kosastudy/blob/main/TIL/230404_JS_22.md)
 - [[day23]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam) [자바스크립트 객체 생성과 사용, 표준 내장 객체, 이벤트핸들러](https://github.com/mowgood/kosastudy/blob/main/TIL/230405_JS_23.md)
-- [day24]
+- [[day24]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/apiexam) [자바스크립트 이벤트 모델, 이벤트 버블링](https://github.com/mowgood/kosastudy/blob/main/TIL/230406_JS_24.md)
 - [day25]
