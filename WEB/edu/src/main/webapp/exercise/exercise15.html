@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	@font-face {
+    	font-family: 'ONE-Mobile-POP';
+    	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+	* {
+		text-align : center;
+		font-family: 'ONE-Mobile-POP';
+	}
+</style>
+</head>
+<body>
+<h1 id="title"></h1>
+<hr>
+<p id="time">
+</p>
+<p id="temp">
+</p>
+<p id="img">
+</p>
+<script>
+	window.addEventListener("load", function() {
+	    const xhr = new XMLHttpRequest();
+	    xhr.onload = function(event) {
+		   if (xhr.status == 200) {
+			  const str = xhr.responseText;
+			  const obj = JSON.parse(str);
+			  const printTitle = document.getElementById("title");
+			  const printTime = document.getElementById("time");
+			  const printTemp = document.getElementById("temp");
+			  const printImg = document.getElementById("img");
+			  printTitle.innerHTML = "오늘의 날씨 정보-" + obj.wtext;
+			  printTime.innerHTML = "발표 일시 : " + obj.time;
+			  printTemp.innerHTML = "온도 : " + obj.temp + "도";
+			  printImg.innerHTML = "<img src='../" + obj.img + "'.png>";
+		   }
+	    };
+	    xhr.open('GET', '../jsexam/ajaxexam/content/weather.jsp', true);
+	    xhr.send(); 
+    });
+</script>
+</body>
+</html>
