@@ -83,7 +83,7 @@
 
 ## Week7
 - [[day26]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/ajaxexam) [[day26_2]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/mapexam) [XML, JSON, AJAX, Map](https://github.com/mowgood/kosastudy/blob/main/TIL/230410_AJAX_26.md)
-- [day27][[JAVA]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/java/core) [[ES6]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/es6exam) [[Servlet]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/clientexam) [ES6, Servlet](https://github.com/mowgood/kosastudy/blob/main/TIL/230411_Servlet_27.md)
+- [day27][[JAVA]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/java/core) [[ES6]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/es6exam) [[HTML]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/clientexam) [ES6, Servlet](https://github.com/mowgood/kosastudy/blob/main/TIL/230411_Servlet_27.md)
 - day28
 - day29
 - day30
