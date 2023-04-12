@@ -29,9 +29,11 @@ public class ReservationServlet extends HttpServlet {
 			RequestDispatcher rd = 
 					request.getRequestDispatcher("/first.html");
 			rd.forward(request,  response);
+			return;
 		}
 		if (pw.equals("")) {
 			response.sendRedirect("http://www.daum.net/");
+			return;
 		}
 			
 		out.print("<h1>" + name + "님의 예약내용</h1>");

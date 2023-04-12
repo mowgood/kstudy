@@ -14,10 +14,10 @@ public class CountServlet extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		HttpSession session = request.getSession();
-		if(session.getAttribute("cnt") == null) {
-			session.setAttribute("cnt", new int[1]);
+		if(session.getAttribute("cnt") == null) { // 세션 객체가 있는지 확인
+			session.setAttribute("cnt", new int[1]); // cnt 이름으로 배열 객체의 참조값을 등록
 		}
-		int[] count = (int[])session.getAttribute("cnt");
+		int[] count = (int[])session.getAttribute("cnt"); // 객체의 참조값이 리턴됨
 		count[0]++;
 		out.print("<h3>당신은 "+ count[0] + 
 				                       "번째 방문입니다.</h3>");		

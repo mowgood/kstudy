@@ -28,7 +28,7 @@ public class ResponseServlet extends HttpServlet {
 			contentType = "text/xml; charset=utf-8";
 		} else if (uri.endsWith("getJSON")) {
 			filename = getServletContext().getRealPath("/")+"/clientexam/sample.json";	
-			contentType = "text/json; charset=utf-8";
+			contentType = "text/json; charset=utf-8"; // spring에서는 -> "application/json"
 		} else {
 			filename = getServletContext().getRealPath("/")+"/images/trans_duke.png";	
 			contentType = "image/png";
@@ -37,8 +37,9 @@ public class ResponseServlet extends HttpServlet {
 		FileInputStream fis = new FileInputStream(f);
 		response.setContentType(contentType);
 		if(contentType.startsWith("image")) {
-			byte[] content = new byte[(int)f.length()];
+			byte[] content = new byte[(int)f.length()]; // 이미지를 바이트 스트림으로 읽어올 배열
 			ServletOutputStream sos = response.getOutputStream();
+			// 이미지인 경우에만 <img src="서블릿 요청 주소"> 도 가능
 			fis.read(content);
 			sos.write(content);			
 			sos.close();

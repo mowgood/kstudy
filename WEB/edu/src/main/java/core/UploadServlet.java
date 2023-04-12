@@ -31,7 +31,7 @@ public class UploadServlet extends HttpServlet {
 				String fileName = part.getSubmittedFileName();
 				if (fileName != null) {
 					part.write(fileName.substring(0, fileName.lastIndexOf(".")) + "_"
-							+ System.currentTimeMillis() + fileName.substring(fileName.lastIndexOf(".")));
+							+ System.currentTimeMillis() + fileName.substring(fileName.lastIndexOf("."))); // 파일 업로드 시간
 					out.print("<br>업로드한 파일 이름: " + fileName);
 					out.print("<br>크기: " + part.getSize());				
 				}

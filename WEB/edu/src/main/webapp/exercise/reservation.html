@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	* { 
+		font-family: 'ONE-Mobile-POP';
+	}
+	h1 { 
+		text-align : center; 
+		color : black;
+		text-shadow : 2px 1px 5px deeppink;
+	}
+	#div1 { 
+		margin-left : auto;
+        margin-right : auto;
+		border-radius : 30px;  
+        border : 5px dotted pink;
+        background-image : linear-gradient(to bottom, lightgrey, white);
+        width : 440px;
+	}
+	#div2 {
+		margin : 20px;
+	}
+	@font-face {
+    	font-family: 'ONE-Mobile-POP';
+    	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+</style>
+</head>
+<body>
+<h1>펜션 예약 서비스</h1>
+<hr>
+<form method="post" action="/edu/reservation">
+<div id="div1">
+	<div id="div2">
+		예약자명 : <input type="text" name="name"><br>
+		예약암호 : <input type="password" name="pw"><br>
+		룸선택 : <input type="radio" name="room" value="둘리">둘리
+		<input type="radio" name="room" value="희동">희동
+		<input type="radio" name="room" value="도우너">도우너
+		<input type="radio" name="room" value="또치">또치<br>
+		추가요청사항 : <input type="checkbox" name="more" value="바베큐">바베큐
+		<input type="checkbox" name="more" value="수영장">수영장
+		<input type="checkbox" name="more" value="낚시">낚시
+		<input type="checkbox" name="more" value="조식">조식<br>
+		예약날짜 : <input type="date" name="date" required>
+		<hr>
+		<input type="submit" value="보내기"> 
+		<input type="reset" value="다시작성하기">
+	</div>	
+</div>
+</form>
+</body>
+</html>

@@ -15,7 +15,7 @@ public class SessionTestServlet extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		String command = request.getParameter("comm");
-		HttpSession session = request.getSession();		
+		HttpSession session = request.getSession(); // 생성(x) 준비(o)
 		String msg="";
 		long time = session.getCreationTime();
 		String id = session.getId();
