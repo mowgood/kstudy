@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	h1, #productList { text-align : center; }
+	img { border : 1px solid black; }
+	#selectList { 
+		width : 500px; 
+		margin-left : auto;
+        margin-right : auto;
+        border-radius : 10px;
+        border : 1px solid grey;
+	}
+</style>
+</head>
+<body>
+<h1>원하는 상품을 클릭해 주세요!! 마구마구^^</h1>
+<hr>
+<div id="productList">
+<img src="/edu/images/1.jpg" onclick="printList('p001')" width="100" height=100>
+<img src="/edu/images/2.jpg" onclick="printList('p002')" width="100" height=100>
+<img src="/edu/images/3.jpg" onclick="printList('p003')" width="100" height=100>
+<img src="/edu/images/4.jpg" onclick="printList('p004')" width="100" height=100>
+<img src="/edu/images/5.jpg" onclick="printList('p005')" width="100" height=100><br>
+<img src="/edu/images/6.jpg" onclick="printList('p006')" width="100" height=100>
+<img src="/edu/images/7.jpg" onclick="printList('p007')" width="100" height=100>
+<img src="/edu/images/8.jpg" onclick="printList('p008')" width="100" height=100>
+<img src="/edu/images/9.jpg" onclick="printList('p009')" width="100" height=100>
+<img src="/edu/images/10.jpg" onclick="printList('p010')" width="100" height=100>
+</div>
+<div id="selectList">
+선택한 상품 리스트
+<hr>
+<ul id="selectProduct">
+</ul>
+<button onclick="removeProduct()">상품비우기</button>
+</div>
+<script>
+function printList(pid) {
+	const xhr = new XMLHttpRequest();
+	xhr.onload = function() {
+		const selectProduct = document.getElementById("selectProduct");
+		const obj = JSON.parse(xhr.responseText);
+		selectProduct.innerHTML = "";
+		for(let o in obj) {
+			if(obj[o].cnt != 0) {
+				selectProduct.innerHTML += "<li>" + obj[o].pid + " 상품 " + obj[o].cnt + "개" + "</li>";
+			}			
+		}
+	};
+	xhr.open("GET", `/edu/basket?pid=${pid}`, true);
+	xhr.send(); 
+}
+
+function removeProduct() {
+	const xhr = new XMLHttpRequest();
+	xhr.onload = function() {
+		const selectProduct = document.getElementById("selectProduct");
+		const obj = JSON.parse(xhr.responseText);
+		selectProduct.innerHTML = "<li>" + obj.msg + "</li>";
+	};
+	xhr.open("GET", `/edu/basket`, true);
+	xhr.send();
+}
+</script>
+</body>
+</html>
