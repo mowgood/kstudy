@@ -19,7 +19,7 @@ if (request.getMethod().equals("POST")) {
       String passwd = request.getParameter("memberpassword");
       if(name.equals("duke") && passwd.equals("1234")) {
     	  session.setAttribute("member_id", name);    	 
-    	  session.setMaxInactiveInterval(60);
+    	  session.setMaxInactiveInterval(60); // 초시간 단위
 %>
      	 <script>
   			alert("성공적으로 로그인했습니다!!");

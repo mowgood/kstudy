@@ -14,6 +14,7 @@ requestScope 객체에서 추출 : ${ requestScope.message }<br>
 sessionScope 객체에서 추출 : ${ sessionScope.message }<br>
 applicationScope 객체에서 추출 : ${ applicationScope.message }<br>
 <hr>
+<!-- page, request 객체는 사라짐 -->
 message 추출 : ${message}<br>
 </body>
 </html>
