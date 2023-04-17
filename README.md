@@ -84,6 +84,6 @@
 ## Week7
 - [[day26]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/ajaxexam) [[day26_2]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/mapexam) [XML, JSON, AJAX, Map](https://github.com/mowgood/kosastudy/blob/main/TIL/230410_AJAX_26.md)
 - [day27][[JAVA]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/java/core) [[ES6]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jsexam/es6exam) [[HTML]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/clientexam) [ES6, Servlet](https://github.com/mowgood/kosastudy/blob/main/TIL/230411_Servlet_27.md)
-- day28
-- day29
-- day30
+- [day28][[JAVA]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/java/core) [Session](https://github.com/mowgood/kosastudy/blob/main/TIL/230412_Session_28.md)
+- [day29][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jspexam) [JSP](https://github.com/mowgood/kosastudy/blob/main/TIL/230413_Jsp_29.md)
+- [day30][[예제코드1(JSP)]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jspexam) [[예제코드2(MVC)]](https://github.com/mowgood/kosastudy/tree/main/MVC/mvc/src/main) [JSP, MVC](https://github.com/mowgood/kosastudy/blob/main/TIL/230414_JSP_MVC_30.md)
