@@ -10,7 +10,7 @@
 </bean>
 
 <bean id="f2" class="sample5.DateVo" 
-	p:name="Dooly"  p:birth="1983-04-22"/>	
+	p:name="Dooly"  p:birth="1983-04-22"/> <!--단축형-->
 </beans>
 
  

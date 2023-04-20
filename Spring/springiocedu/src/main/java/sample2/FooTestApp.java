@@ -8,7 +8,8 @@ public class FooTestApp {
 		ApplicationContext factory
     		= new ClassPathXmlApplicationContext("sample2.xml");
 		System.out.println("************ IoC 컨테이너의 초기화 작업 끝 ************\n");
-		
+
+		/*요청시마다 필요한 객체 생성*/
 		System.out.println("\nScope(singleton/prototype)");
 		Foo ob1=(Foo)factory.getBean("foo0");
 		System.out.println(ob1);

@@ -4,6 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="test" class="sample4.AbstractTest" 
-                          factory-method="getInstance"/>
+                          factory-method="getInstance"/> <!--객체 생성시 사용될 factory 메서드-->
 
 </beans>

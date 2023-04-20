@@ -18,7 +18,7 @@ public class HelloSpringApp {
 		bean2.sayHello();                 
 		bean2.sayHello("banana", 1500); 
 		System.out.println(bean2);
-		((ClassPathXmlApplicationContext)factory).close();
+		((ClassPathXmlApplicationContext)factory).close(); /*close로 자원을 닫아줘야 한다*/
 	}
 }
 

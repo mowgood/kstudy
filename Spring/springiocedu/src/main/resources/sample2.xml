@@ -13,7 +13,7 @@
 </bean>
 <bean id="foo3" class="sample2.Foo">
 	<constructor-arg index="1"  type="int"  value="50"/>
-	<constructor-arg index="0"  type="java.lang.String" value="xyz"/>
+	<constructor-arg index="0"  type="java.lang.String" value="xyz"/> <!--클래스명은 패키지 명과 함께 준다-->
 	<constructor-arg index="2"  type="boolean" value="true"/>
 </bean>
 <bean id="foo4" class="sample2.Foo">

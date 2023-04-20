@@ -15,7 +15,7 @@ public class UserServiceApp {
 		System.out.println(u1);
 		System.out.println("----------------------------------------------------");
 		
-		UserService u2=factory.getBean("userService", UserService.class);
+		UserService u2=factory.getBean("userService", UserService.class); /*형변환 대신 두번째 아규먼트에 클래스 값을 준다*/
 		UserVo vo2 = (UserVo)factory.getBean("obj2");
 		u2.addUser(vo2);
 		System.out.println(u2);		

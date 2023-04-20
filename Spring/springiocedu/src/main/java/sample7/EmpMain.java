@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class EmpMain {
 	public static void main(String[] args) {
 		ApplicationContext factory =
-				   new ClassPathXmlApplicationContext("sample7_1.xml");
+				   new ClassPathXmlApplicationContext("sample7_2.xml");
 		System.out.println("************ IoC 컨테이너의 초기화 작업 끝 ************\n");
 		
 		Emp b1 = (Emp)factory.getBean("developer");

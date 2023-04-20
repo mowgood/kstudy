@@ -5,9 +5,10 @@
 
 <!-- 생성자를 통한 객체 생성 -->
 <bean id="developer" class="sample8.Developer">
-	<constructor-arg name="emp"  ref="emp1" />
+	<constructor-arg name="emp"  ref="emp1" /> <!--ref : emp1로 만들어진 bean 객체의 참조값을 전달-->
 	<constructor-arg name="dept"  value="Development 1 Team"/>
 </bean>
+
 <bean id="engineer" class="sample8.Engineer">
 	<constructor-arg name="emp"  ref="emp2" />
 	<constructor-arg name="dept"  value="Technology 1 Team"/>

@@ -8,7 +8,7 @@
 <bean id="messageBean" class="sample6.MessageBeanImpl"  
       c:name="Dooly"  
       p:phone="123-4567"
-      p:outputter-ref="outputRef" />
+      p:outputter-ref="outputRef" /> <!--ref : 객체를 주입-->
       
 <bean id="outputRef" class="sample6.FileOutput"  
       p:filePath="c:/Temp/data.txt"/>
