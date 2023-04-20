@@ -89,7 +89,7 @@
 - [day30][[예제코드1(JSP)]](https://github.com/mowgood/kosastudy/tree/main/WEB/edu/src/main/webapp/jspexam) [[예제코드2(MVC)]](https://github.com/mowgood/kosastudy/tree/main/MVC/mvc/src/main) [JSP, MVC](https://github.com/mowgood/kosastudy/blob/main/TIL/230414_JSP_MVC_30.md)
 
 ## Week8
-- [[day31]][[예제코드(Filter)]](https://github.com/mowgood/kosastudy/tree/main/MVC/mvc/src/main/java/filter) [Filter, JUnit5, 스프링](https://github.com/mowgood/kosastudy/blob/main/TIL/230417_Spring_31.md)
+- [day31][[예제코드(Filter)]](https://github.com/mowgood/kosastudy/tree/main/MVC/mvc/src/main/java/filter) [Filter, JUnit5, 스프링](https://github.com/mowgood/kosastudy/blob/main/TIL/230417_Spring_31.md)
 - 23.04.18 화 휴강
 - 23.04.19 수 휴강
-- [[day32]]
+- [day32][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드1]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam1)[[실습코드2]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam2) [[TIL:Spring IoC]](https://github.com/mowgood/kosastudy/blob/main/TIL/230420_SpringIoC_32.md)
