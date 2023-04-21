@@ -1,19 +1,20 @@
 package sampleanno8;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component  
 public class MyMessage {
 	@Autowired
-	//@Qualifier("message1")
+//	@Qualifier("message1")
 	String message;
 	
 	public MyMessage(){
 		System.out.println("MyMessage 객체 생성 - no args ");		
 	}
 	@Autowired
-	public MyMessage(String m){
+	public MyMessage(String m){ /*String 객체가 하나일 경우 자동으로 받아오지만 두개 이상이면 에러 발생*/
 		System.out.println("MyMessage 객체 생성 - "+m);		
 	}
 	@Autowired

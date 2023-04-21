@@ -1,12 +1,13 @@
 package sampleanno1;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("myFood")  //default : myFoodMgr
 public class MyFoodMgr{
 	@Autowired
-	//@Qualifier(value="unFavoriteFood")
+	@Qualifier(value="unFavoriteFood") // unFavoriteFood가 주입된다
 	private Food favoriteFood;     
 	@Autowired
 	private Food unFavoriteFood;
