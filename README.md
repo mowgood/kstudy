@@ -94,3 +94,6 @@
 - 23.04.19 수 휴강
 - [day32][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드1]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam1)[[실습코드2]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam2) [[TIL:Spring IoC]](https://github.com/mowgood/kosastudy/blob/main/TIL/230420_SpringIoC_32.md)
 - [day33][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam3) [[TIL:Spring IoC, Spring Boot]](https://github.com/mowgood/kosastudy/blob/main/TIL/230421_Spring_IoC_Boot_33.md)
+
+## Week9
+- [day34][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL:Spring MVC, Thymeleaf]](https://github.com/mowgood/kosastudy/blob/main/TIL/230424_SpringMVC_Thymeleaf_34.md)
