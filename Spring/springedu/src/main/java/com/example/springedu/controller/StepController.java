@@ -11,7 +11,7 @@ import com.example.springedu.domain.StepVO;
 public class StepController {		
 	@PostMapping("/step")
 	public String memberHandle(@ModelAttribute("kkk") StepVO vo) {
-		if(vo.getAge() < 18)
+		if(vo.getAge() < 18) /*나이가 18세 미만이면 다시 입력폼이 뜬다*/
 			return "redirect:/stepForm.html";
 		System.out.println("[ 전달된 Command 객체의 정보 ]");
 		System.out.println(vo.getName());
