@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+  <style>
+    * { text-align : center; }
+    .result { color : red; }
+  </style>
+</head>
+<body>
+  <h1>로또 결과</h1>
+  <hr>
+  <h1 class="result" th:utext="${ lottoResult.result }"></h1>
+  <img th:src= "@{${lottoResult.imgName}}">
+  <hr>
+  <h1 th:if="${ lottoResult.result.equals('아쉽네요 .. 다음 기회를!!')}"><a th:href='${ #request.getHeader("referer") }'>재시도...</a></h1>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+</head>
+<body>
+<h1>우리팀 소개</h1>
+<hr>
+<button id="teamName" onclick="getTeamName();">우리 팀명</button>
+<button id="teamMember" onclick="getTeamMember();">우리 팀원</button>
+<div id="contents">
+</div>
+
+<script>
+  function getTeamName() {
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+				const contents = document.getElementById("contents");
+				contents.innerHTML = "";
+				const jsonObj = JSON.parse(xhr.responseText);
+				contents.innerHTML = "<h2>우리 팀의 팀명은 "+jsonObj.teamName+"입니다.</h2>";
+			}
+			xhr.open("GET", "/team", true);
+			xhr.send();
+  }
+
+  function getTeamMember() {
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+                const contents = document.getElementById("contents");
+                contents.innerHTML = "";
+                const jsonObj = JSON.parse(xhr.responseText);
+                contents.innerHTML += "<h2>"+jsonObj.teamName+"팀의 팀원들을 소개합니다.</h2>";
+                contents.innerHTML += "<ul>"
+                for(let i in jsonObj.teamMember) {
+                  contents.innerHTML += "<li>" + jsonObj.teamMember[i].name + " : 별명은 " + jsonObj.teamMember[i].nicName +
+                                          "이고 좋아하는 음식은 " + jsonObj.teamMember[i].food + "입니다.</li>";
+                }
+                contents.innerHTML += "</ul>"
+            }
+            xhr.open("GET", "/team", true);
+            xhr.send();
+	}
+</script>
+</body>
+</html>
+
+
+
