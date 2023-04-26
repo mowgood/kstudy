@@ -97,3 +97,7 @@
 
 ## Week9
 - [day34][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL:Spring MVC, Thymeleaf]](https://github.com/mowgood/kosastudy/blob/main/TIL/230424_SpringMVC_Thymeleaf_34.md)
+- [day35][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL:Spring MVC, Thymeleaf]](https://github.com/mowgood/kosastudy/blob/main/TIL/230425_SpringMVC_Thymeleaf_35.md)
+- [day36]
+- [day37]
+- [day38]
