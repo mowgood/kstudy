@@ -92,12 +92,12 @@
 - [day31][[예제코드(Filter)]](https://github.com/mowgood/kosastudy/tree/main/MVC/mvc/src/main/java/filter) [Filter, JUnit5, 스프링](https://github.com/mowgood/kosastudy/blob/main/TIL/230417_Spring_31.md)
 - 23.04.18 화 휴강
 - 23.04.19 수 휴강
-- [day32][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드1]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam1)[[실습코드2]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam2) [[TIL:Spring IoC]](https://github.com/mowgood/kosastudy/blob/main/TIL/230420_SpringIoC_32.md)
-- [day33][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam3) [[TIL:Spring IoC, Spring Boot]](https://github.com/mowgood/kosastudy/blob/main/TIL/230421_Spring_IoC_Boot_33.md)
+- [day32]**Spring IoC** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드1]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam1)[[실습코드2]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam2) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230420_SpringIoC_32.md)
+- [day33]**Spring IoC, Spring Boot** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springiocedu/src/main/java/exam3) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230421_Spring_IoC_Boot_33.md)
 
 ## Week9
-- [day34][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL:Spring MVC, Thymeleaf]](https://github.com/mowgood/kosastudy/blob/main/TIL/230424_SpringMVC_Thymeleaf_34.md)
-- [day35][[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL:Spring MVC, Thymeleaf]](https://github.com/mowgood/kosastudy/blob/main/TIL/230425_SpringMVC_Thymeleaf_35.md)
+- [day34]**Spring MVC, Thymeleaf** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230424_SpringMVC_Thymeleaf_34.md)
+- [day35]**Spring MVC, Thymeleaf** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230425_SpringMVC_Thymeleaf_35.md)
 - [day36]
 - [day37]
 - [day38]
