@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lab1">
+    <select id="exam1" resultType="BookDTO">
+        SELECT id, title,  CONCAT(FORMAT(price, 0), '원') bookPrice, kind FROM book
+    </select>
+    <select id="exam2" resultType="BookDTO">
+        SELECT id, title,  CONCAT(FORMAT(price, 0), '원') bookPrice, kind FROM book ORDER BY price DESC
+    </select>
+    <select id="exam3" resultType="BookDTO">
+        SELECT title,  CONCAT(FORMAT(price, 0), '원') bookPrice FROM book where price >= 20000
+    </select>
+    <select id="exam4" resultType="BookDTO">
+        SELECT title,  CONCAT(FORMAT(price, 0), '원') bookPrice FROM book where kind='b02'
+    </select>
+    <select id="exam5" resultType="BookDTO">
+        SELECT title,  CONCAT(FORMAT(price, 0), '원') bookPrice FROM book where kind='b04' OR kind ='b05'
+    </select>
+    <select id="exam6" resultType="BookDTO" parameterType="string">
+        SELECT title, CONCAT(FORMAT(price, 0), '원') bookPrice FROM book where title LIKE CONCAT('%',#{keyword},'%')
+    </select>
+    <select id="exam7" resultType="BookDTO">
+        SELECT kind, CONCAT(FORMAT(AVG(price), 0), '원') bookPrice FROM book WHERE kind is not null GROUP BY kind
+    </select>
+</mapper>
