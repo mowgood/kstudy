@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+</head>
+<body>
+<th:block th:if="${book != null}">
+  <h1>입력된 도서 정보</h1>
+  <hr>
+  <div>
+    제목 : [[${book.title}]]
+    <br>
+    가격 : [[${book.bookPrice}]]
+    <br>
+    종류 : [[${book.kind}]]
+  </div>
+  <a th:href ="@{/bookinfo/b1}">전체 리스트 보기</a>
+</th:block>
+
+<th:block th:if="${book == null}">
+  <form method="post" action="/bookCreate">
+    <h1>도서 정보 입력</h1>
+    <hr>
+    <div>
+      도서명 : <input id="title" type="text" name="title">
+      <br>
+      가격 : <input id="bookPrice" type="number" name="bookPrice">
+      <br>
+      도서분류
+      <select id="kind" name="kind">
+        <option th:value="b01">프로그래밍 언어</option>
+        <option th:value="b02">웹 프로그래밍</option>
+        <option th:value="b03">빅데이터</option>
+        <option th:value="b04">데이터베이스</option>
+        <option th:value="b05">인프라</option>
+      </select>
+    </div>
+    <input type = "submit" value = "등록">
+  </form>
+</th:block>
+
+</body>
+</html>
+
+
+
+
+
+
+

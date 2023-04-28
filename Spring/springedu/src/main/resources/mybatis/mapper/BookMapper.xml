@@ -24,4 +24,7 @@
     <select id="exam7" resultType="BookDTO">
         SELECT kind, CONCAT(FORMAT(AVG(price), 0), '원') bookPrice FROM book WHERE kind is not null GROUP BY kind
     </select>
+    <insert id="exam8" parameterType="BookDTO">
+        INSERT INTO book (title, price, kind) VALUES (#{title}, #{bookPrice}, #{kind})
+    </insert>
 </mapper>
