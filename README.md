@@ -28,8 +28,8 @@
 |DB와 SQL|[🔎](#week2)|
 |JDBC|[🔎](#week2)|
 |Web Client(HTML5, CSS3, JS(AJAX))|[🔎](#week5)|
-|MVC 기반 Servlet&JSP|[]()|
-|Spring FW(DI, MVC, Rest, JdbcTemplate)|[]()|
+|MVC 기반 Servlet&JSP|[🔎](#week7)|
+|Spring FW(DI, MVC, Rest, Mybatis)|[🔎](#week8)|
 |1차 미니 프로젝트(JPA, Spring Boot, Vue.js&Node.js)|[]()|
 |2차 미니 프로젝트(Docker, 쿠버네티스)|[]()|
 |최종 프로젝트|[]()|
@@ -98,6 +98,6 @@
 ## Week9
 - [day34]**Spring MVC, Thymeleaf** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230424_SpringMVC_Thymeleaf_34.md)
 - [day35]**Spring MVC, Thymeleaf** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230425_SpringMVC_Thymeleaf_35.md)
-- [day36]
-- [day37]
+- [day36] **Spring MVC** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230426_SpringMVC_36.md)
+- [day37] **Mybatis** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230427_Mybatis_37.md)
 - [day38]
