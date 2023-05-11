@@ -100,4 +100,4 @@
 - [day35]**Spring MVC, Thymeleaf** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230425_SpringMVC_Thymeleaf_35.md)
 - [day36] **Spring MVC** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230426_SpringMVC_36.md)
 - [day37] **Mybatis** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230427_Mybatis_37.md)
-- [day38]
+- [day38] **로그, Mybatis** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230428_Log_mybatis_38.md)
