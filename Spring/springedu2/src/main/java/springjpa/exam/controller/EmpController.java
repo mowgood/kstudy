@@ -2,6 +2,7 @@ package springjpa.exam.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -16,7 +17,7 @@ import springjpa.exam.repository.EmpRepository;
 @Controller
 @RequiredArgsConstructor
 public class EmpController {
-	
+//	@Autowired
 	private final EmpRepository dao;
 	
 	@GetMapping("/countnum") // 수정

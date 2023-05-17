@@ -35,7 +35,7 @@ public class JPA_EmpRepository2Test {
     void save() {
     	Emp entity = new Emp();
     	entity.setEmpno(1234);
-    	entity.setEname("유니코1");
+    	entity.setEname("유니코");
     	entity.setJob("강의");
     	entity.setMgr("7566");
     	entity.setHiredate(new java.sql.Date(System.currentTimeMillis()));
