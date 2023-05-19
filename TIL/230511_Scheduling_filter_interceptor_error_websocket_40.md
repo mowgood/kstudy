@@ -8,34 +8,117 @@
 특정 시간에 반복적으로 처리되는 코드를 스케줄링한다.  
 이 때 반복적으로 수행되는 코드를 TASK라고 한다.  
 
-- 환경 설정
+### 환경 설정
  - dependencies에 스케줄링 관련 API에 대한 의존성 정보를 추가한다
     ```
     implementation 'org.springframework.boot:spring-boot-starter-quartz'
     testImplementation 'org.springframework.boot:spring-boot-starter-test
     ```
-- XXXApplication 클래스에 @EnableScheduling을 추가한다.  
+- XXXApplication 클래스(실행 파일)에 @EnableScheduling을 추가한다.  
 
-### Task 기능의 메서드  
-설정된 주기(스케줄링)
+### Task 기능의 메서드 정의
+설정된 주기(스케줄링)에 맞춰서 호출되는 Task 메서드 앞에 @Scheduled 어노테이션을 아래 속성중 하나를 정의하여 추가한다
+    - cron : CronTab에서의 설정과 같이 cron = = "10 30 12 * * 5"와 같은 설정이 가능하다.
+    - fixedDelay  이전에 실행된 Task의 종료시간으로부터 정의된 시간만큼 지난 후 Task를 실행한다.
+    - fixedRate : 이전에 실행된 Task의 시작시간으로부터 정의된 시간만큼 지난 후 Task를 실행한다.
+
+### Cron 표현식
+\*  초(0~59)
+\*  분(0~59)
+\*  시(0~23)
+\*  일(1~31)
+\*  월(1~12)
+\*  요일(0~6)
+\*  년도(생략 가능)
+
+    - 특수 문자 
+        - \* : 모든 값(ex. 매시, 매일, 매주)
+        - ? : 특정 값이 아닌 어떤 값이든 상관 X
+        - \- : 범위를 지정
+        - , : 여러 값을 지정
+        - / : 증분값, 즉 초기값과 증가치를 설정할 때
+        - L : 지정할 수 있는 범위의 마지막 값 표시
+        - W : 가장 가까운 평일(weekday)을 설정
+        - \# : N번째 특정 요일을 설정
+
+
+### 스프링 스케줄링 예시
+```java
+package com.example.springedu.service;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
+@Component
+public class SpringSchedulerTest {	
+	@Scheduled(cron = "5 27 10 * * 4")// 초, 분, 시, 일, 월, 요일(0:일요일)
+//	@Scheduled(fixedDelay = 5000) // 5초에 한 번씩
+	public void scheduleRun() {
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat dateFormat = 
+				new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		System.out.println("**** 스케줄 실행 : " + 
+				dateFormat.format(calendar.getTime()));
+		
+	}
+}
+```
 
 ## 2. 필터와 인터셉터  
+[스프링 동작과정 이미지]  
 공통적인 여러 작업을 대신 처리하며 개발시 중복된 코드를 제거할 수 있다.  
 
 - 필터  
     - J2EE 표준 스펙 기능
     - DispatcherServlet에 요청이 전달되기 전/후에 url 패턴에 맞는 모든 요청에 대한 부가작업을 처리할 수 있는 기능을 제공한다.  
+    - 스프링 범위 밖에서 처리된다.
     - 스프링 컨테이너가 아닌 톰캣과 같은 웹 컨테이너(서블릿 컨테이너)에 의해 관리가 된다.(스프링 빈으로 등록은 된다)
-    - DispatcherServlet 전/후에 처리한다.
+    - **DispatcherServlet 전/후에 처리한다.**
     - 스프링과 관련 없는 기능을 처리할 때 사용한다.
+    - 필터 등록 방법
+        ```java
+        @Component
+        @Slf4j
+        @Order(2)
+        public class TestFilter1 implements Filter {
+            public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+                log.info("[필터1] 요청 자원 수행 전");
+                chain.doFilter(request, response);
+                log.info("[필터1] 요청 자원 수행 후");
+            }
+        }
+        ```
+
+    ### 필터 메서드 3가지  
+    필터를 추가하기 위해서 javax.servlet의 Filter 인터페이스를 구현(implements)해야 한다.
+    ```java
+    public interface Filter {
+        public default void init(FilterConfig filterConfig) throws ServletException {}
+        public void doFilter(ServletRequest request, ServletResponse response,
+        FilterChain chain) throws IOException, ServletException {}
+        public default void destroy() {}
+    }
+    ```
+    1. init 메서드  
+    필터 객체를 초기화하고 서비스에 추가하기 위한 메서드.  
+    웹 컨테이너가 1회 init 메서드를 호출하여 필터 객체를 초기화하면 이후의 요청들은 doFilter를 통해 처리된다.
+
+    2. doFilter 메서드  
+    url-pattern에 맞는 모든 HTTP 요청이 DispatcherServlet으로 전달되기 전에 웹 컨테이너에 의해 실행되는 메서드.  
+    doFilter의 파라미터인 FilterChain은 doFilter를 통해 다음 대상으로 요청을 전달하게 된다. chain.doFilter() 전/후에 필요한 처리 과정을 넣어줌으로써 원하는 처리를 진행할 수 있다.
+
+    3. destroy 메서드  
+    필터 객체를 서비스에서 제거하고 사용하는 자원을 반환하기 위한 메서드. 이는 웹 컨테이너에 의해 1번 호출되며 이후에는 doFilter에 의해 처리되지 않는다.
 
 - 인터셉터
     - Spring이 제공하는 기술
     - DispatcherServlet이 컨트롤러를 호출하기 전과 후에 요청과 응답을 참고하거나 가공할 수 있는 기능을 제공한다. 
     - 웹 컨테이너(서블릿 컨테이너)에서 동작하는 필터와 달리 인터셉트는 스프링 컨텍스트에서 동작한다.
-    - 스프링 컨테이너 내에서 동작하므로 필터를 거쳐 프론트 컨트롤러인 DispatcherServlet이 요청을 받은 이후에 동작한다.
+    - 스프링 컨테이너 내에서 동작하므로 필터를 거쳐 프론트 컨트롤러인 **DispatcherServlet이 요청을 받은 이후에 동작한다.**
 
-    ### 메서드 3가지
+    ### 인터셉터 메서드 3가지
     1. preHandle() 메서드  
     컨트롤러가 호출되기 전에 실행된다. 그렇기 때문에 컨트롤러 이전에 처리해야 하는 전처리 작업이나 요청 정보를 가공하거나 추가하는 경우에 사용할 수 있다.  
     2. PostHandle() 메서드  
