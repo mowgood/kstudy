@@ -1,8 +1,6 @@
-<div align="center"> <img src="https://github.com/mowgood/kosastudy/blob/main/TIL/img/dktechin_Logo.jpg"> </div>
+# MSA 기반 Full Stack 개발자 양성과정
 
-# 👩‍💻디케이테크인 MSA 기반 Full Stack 개발자 양성과정
-
-📍 디케이테크인과 KOSA에서 진행하는 MSA기반 Full stack 개발자 양성과정에서 학습한 내용을 기록하는 저장소 <br><br>
+📍 MSA기반 Full stack 개발자 양성과정에서 학습한 내용을 기록하는 저장소 <br><br>
 🌵 **학습 기간**  : 2023.02.27 ~ 2023.07.26  <br><br>
 🌵 **학습 기술 스택**
 |Skill|
