@@ -106,10 +106,18 @@
 ### Week11 (05.08 ~ 05.12)
 - [05.08] 미니 프로젝트1
 - [05.09] 미니 프로젝트1
-- [day39] **스프링 부트 로깅** [[예제코드]](https://github.com/mowgood/kosastudy/blob/main/Spring/springedu/src/main/resources/logback-spring.xml) [[실습코드]]() [[TIL]]()
-- [day40] **Spring Scheduling(TASK), 필터와 인터셉터, 오류 처리, 웹소켓**  [[예제코드]]() [[실습코드]]() [[TIL]]()
-- [day41] **AOP**  [[예제코드]]() [[실습코드]]() [[TIL]]()
+- [day39] **스프링 부트 로깅** [[예제코드]](https://github.com/mowgood/kosastudy/blob/main/Spring/springedu/src/main/resources/logback-spring.xml) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230510_Logback_39.md)
+- [day40] **Spring Scheduling(TASK), 필터와 인터셉터, 오류 처리, 웹소켓**  [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main/java/com/example/springedu) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230511_Scheduling_filter_interceptor_error_websocket_40.md)
+- [day41] **AOP**  [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main/java/com/example/springedu) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu/src/main/java/com/example/springedu/aop) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230512_AOP_41.md)
 
 ### Week12 (05.15 ~ 05.20)
-- [day42] **JPA**  [[예제코드]]() [[실습코드]]() [[TIL]]() 
-- [day43] **JPA 연관관계 매핑** [[예제코드]]() [[실습코드]]() [[TIL]]()
+- [day42] **JPA**  [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springjpaedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springjpaedu/src/main/java/jpamvcexam) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230515_JPA_42.md) 
+- [day43] **JPA 연관관계 매핑** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springjpaedu/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springjpaedu/src/main/java/jpamvcexam) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230516_JPA_43.md)
+- [day44] **Spring Data JPA** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu2/src) [[실습코드]]() [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230517_SpringDataJPA_44.md)
+- [day45] **Spring REST API** [[예제코드]]() [[실습코드]]() [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230518_SpringRestAPI_45.md)
+- [day46] **Spring REST API** [[예제코드]]() [[실습코드]]() [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230519_RestAPI_46.md)
+- [day47] **Spring HATEOAS** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu2/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu2/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230520_Spring_HATEOAS_47.md)
+### Week13 (5.22 ~ 5.26)
+- [day48] **ECMA** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/ecma) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230522_ECMA_48.md)
+- [day49] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230523_Vue3_49.md)
+- [day50] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230524_Vue3_50.md)
