@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Vue.js sample</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+	<h2>숫자 버튼 만들기와 클릭 이벤트 처리</h2>
+
+	<div id="app">
+		<button v-for="n in 10" @click="clickBtn(n)">{{n}}</button>
+        <hr>
+        <img v-bind:src="fileName">
+	</div>
+	<script>
+		const { createApp } = Vue
+		createApp({
+			data() {
+				return {
+					fileName: ''
+				}
+			},
+            methods: {
+                clickBtn: function (n) {
+                    this.fileName = 'images/' + n + '.jpg';
+                }
+            }
+		}).mount('#app')
+	</script>
+</body>
+
+</html>
