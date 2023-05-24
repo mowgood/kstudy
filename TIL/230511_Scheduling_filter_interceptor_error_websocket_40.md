@@ -67,7 +67,8 @@ public class SpringSchedulerTest {
 ```
 
 ## 2. 필터와 인터셉터  
-[스프링 동작과정 이미지]  
+<img src="https://github.com/mowgood/kosastudy/blob/main/TIL/img/스프링동작과정.PNG"> 
+<br>   
 공통적인 여러 작업을 대신 처리하며 개발시 중복된 코드를 제거할 수 있다.  
 
 - 필터  
