@@ -10,6 +10,8 @@
 </template>
 <script setup>
     import { defineProps, defineEmits } from 'vue'; 
+    import { useWeatherStore } from '@/stores/weatherstore'
+
     const p = defineProps( {
         name : String,
         food : {
@@ -17,13 +19,21 @@
             default: "떡볶이"            
         },
         srcUrl: String,
-        teamNum : Number,
-        idx: Number
+        teamNum: {
+            type: Number,
+            default: 5
+        },
+        idx: Number,
     });
     
     const emit = defineEmits(["emitData"]);
+
+    const store = useWeatherStore();
+
+    store.getWeather();
     
     function handleClick(idx) {
+        alert(`${this.p.teamNum}팀 입니다 ~~~!! 오늘의 날씨는 ${store.time}입니다.`);
         emit('emitData', idx);
     }
 </script>
