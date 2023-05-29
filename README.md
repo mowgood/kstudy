@@ -121,3 +121,8 @@
 - [day48] **ECMA** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/ecma) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230522_ECMA_48.md)
 - [day49] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230523_Vue3_49.md)
 - [day50] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230524_Vue3_50.md)
+-[day51] **Vue3, VUE-PROJECT** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230525_Vue3_51.md)
+-[day52] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230526_Vue3_52.md)
+
+### Week14 (5.29 ~ 6.02)
+- [day53] **Vue3, Spring Security** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230529_Vue3_SpringSecurity_53.md)
