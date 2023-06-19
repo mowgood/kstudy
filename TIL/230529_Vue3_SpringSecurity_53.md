@@ -405,6 +405,16 @@ http.formLogin()
 successHandler를 람다식으로 해당 폼 로그인을 성공하면 인증객체의 이름으로 로그를 찍고, "/"으로 리다이렉트하는 핸들러다.   
 만약 실패할 경우, 필터가 fauilerHandler를 찾아 해당 람다식 핸들러를 실행시킨다.
 
+### Login Form 인증 절차  
+1. Http Request가 서버로 넘어온다.
+2. AuthenticationFilter가 요청을 낚아챈다. AuthenticationFilter에서 Request의 Username, password를 이용하여 UsernamePasswordAuthenticationToken을 생성한다.
+3. 토큰을 AuthenticationManager가 낚아챈다.
+4. AuthenticatonManager는 토큰을 AuthenticationProvide에게 토큰을 넘긴다.
+5. AuthenticationProvider는 UserDetailsService로 토큰의 사용자 아이디(username)을 전달하여 DB에 존재하는지 확인한다.
+6. UserDetailsService는 DB의 회원정보를 UserDetails라는 객체로 반환한다.  
+7. AuthenticationProvider는 반환받은 UserDetails 객체와 실제 사용자의 입력정보를 비교한다.
+비교가 완료되면 사용자 정보를 가진 Authentication 객체를 SecurityContextHolder에 담은 이후 AuthenticationSuccessHandle를 실행한다. (실패시 AuthenticationFailureHandler를 실행한다.)
+
 ### JWT (Json Web Token)  
 Cookie / Session / Token 인증 방식 종류  
 - 서버가 클라이언트 인증을 확인하는 방식 3가지
