@@ -102,6 +102,10 @@
 
 ### Week10 (05.01 ~ 05.04)
 - 미니 프로젝트1
+- 미니 프로젝트1
+- 미니 프로젝트1
+- 미니 프로젝트1
+- 미니 프로젝트1
 
 ### Week11 (05.08 ~ 05.12)
 - [05.08] 미니 프로젝트1
@@ -117,6 +121,7 @@
 - [day45] **Spring REST API** [[예제코드]]() [[실습코드]]() [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230518_SpringRestAPI_45.md)
 - [day46] **Spring REST API** [[예제코드]]() [[실습코드]]() [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230519_RestAPI_46.md)
 - [day47] **Spring HATEOAS** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu2/src/main) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/Spring/springedu2/src/main) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230520_Spring_HATEOAS_47.md)
+
 ### Week13 (5.22 ~ 5.26)
 - [day48] **ECMA** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/ecma) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230522_ECMA_48.md)
 - [day49] **Vue3** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/cdn) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230523_Vue3_49.md)
@@ -126,3 +131,21 @@
 
 ### Week14 (5.29 ~ 6.02)
 - [day53] **Vue3, Spring Security** [[예제코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[실습코드]](https://github.com/mowgood/kosastudy/tree/main/vue3/edu/pjbuild/vue-project) [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230529_Vue3_SpringSecurity_53.md)
+- [day54] **Spring Security** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230530_SpringSecurity_54.md)
+- 미니 프로젝트2
+- 미니 프로젝트2
+- 미니 프로젝트2
+
+### Week15 (6.05. ~ 6.09)
+- 미니 프로젝트2
+- 미니 프로젝트2
+- 미니 프로젝트2
+- 미니 프로젝트2
+- [day55] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230609_Docker_55.md)
+
+### Week16 (6.12. ~ 6.16)
+- 미니 프로젝트2 발표
+- [day56] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230613_Docker_56.md)
+- [day57] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230614_Docker_57.md)
+- [day58] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230615_Docker_58.md)
+- [day59] **Kubernetes** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230616_Kubernetes_59.md)
