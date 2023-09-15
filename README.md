@@ -28,9 +28,10 @@
 |Web Client(HTML5, CSS3, JS(AJAX))|[🔎](#week5)|
 |MVC 기반 Servlet&JSP|[🔎](#week7)|
 |Spring FW(DI, MVC, Rest, Mybatis)|[🔎](#week8)|
-|1차 미니 프로젝트(JPA, Spring Boot, Vue.js&Node.js)|[]()|
-|2차 미니 프로젝트(Docker, 쿠버네티스)|[]()|
-|최종 프로젝트|[]()|
+|Spring Data JPA, Vue.js, Docker|[🔎](#week12)|
+|1차 미니 프로젝트(Spring Boot, Mabatis, MySQL, Thymeleaf)|[🎁](https://github.com/TKO-RE-fresh/RE-fresh)|
+|2차 미니 프로젝트(Spring Boot, Spring Data JPA, MySQL, Vue.js)|[🎁](https://github.com/TKO-RE-fresh/REfresh)|
+|최종 프로젝트 (Spring Boot, Spring Data JPA, MySQL)|[🎁](https://github.com/kosa-detopia)|
 
 <br><br>
 
@@ -148,4 +149,6 @@
 - [day56] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230613_Docker_56.md)
 - [day57] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230614_Docker_57.md)
 - [day58] **Docker** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230615_Docker_58.md)
-- [day59] **Kubernetes** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230616_Kubernetes_59.md)
+- [day59] **Kubernetes, Github Action을 이용한 CI/CD** [[TIL]](https://github.com/mowgood/kosastudy/blob/main/TIL/230616_Kubernetes_59.md)
+
+### 최종 프로젝트
