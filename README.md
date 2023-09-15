@@ -18,17 +18,17 @@
 🌵 **학습 과정**
 |Subject|More|
 |:--:|:--:|
-|리눅스(CentOS 8)|[🔎](##Week1 (02.27 ~ 03.03))|
-|네트워크|[🔎](#week1)|
-|데이터베이스(MySQL, 몽고DB)|[🔎](#week1)|
-|깃/깃허브|[🔎](#week1)|
-|자바|[🔎](#week2)|
-|DB와 SQL|[🔎](#week2)|
-|JDBC|[🔎](#week2)|
-|Web Client(HTML5, CSS3, JS(AJAX))|[🔎](#week5)|
-|MVC 기반 Servlet&JSP|[🔎](#week7)|
-|Spring FW(DI, MVC, Rest, Mybatis)|[🔎](#week8)|
-|Spring Data JPA, Vue.js, Docker|[🔎](#week12)|
+|리눅스(CentOS 8)||
+|네트워크||
+|데이터베이스(MySQL, 몽고DB)||
+|깃/깃허브||
+|자바||
+|DB와 SQL||
+|JDBC||
+|Web Client(HTML5, CSS3, JS(AJAX))||
+|MVC 기반 Servlet&JSP||
+|Spring FW(DI, MVC, Rest, Mybatis)||
+|Spring Data JPA, Vue.js, Docker||
 |1차 미니 프로젝트(Spring Boot, Mabatis, MySQL, Thymeleaf)|[🎁](https://github.com/TKO-RE-fresh/RE-fresh)|
 |2차 미니 프로젝트(Spring Boot, Spring Data JPA, MySQL, Vue.js)|[🎁](https://github.com/TKO-RE-fresh/REfresh)|
 |최종 프로젝트 (Spring Boot, Spring Data JPA, MySQL)|[🎁](https://github.com/kosa-detopia)|
