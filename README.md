@@ -38,7 +38,7 @@
 # 주차별 학습 내용
 
 ## 주차  
-- [학습코드(학습일자)] 학습 내용 정리
+- **[학습코드 링크] 학습 내용 정리 링크**
 ## Week1 (02.27 ~ 03.03)
 - [02.27] [리눅스 설치와 기본 명령어](https://github.com/mowgood/kosastudy/blob/main/TIL/230227_Linux.md)
 - [02.28] [네트워크, 개발환경 준비 (Putty, VSCode, Spring FW, Tomcat, ...)](https://github.com/mowgood/kosastudy/blob/main/TIL/230228_Network.md)
